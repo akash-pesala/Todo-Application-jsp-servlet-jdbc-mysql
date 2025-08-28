@@ -10,7 +10,7 @@ public class ConnectorFactory {
 	static Connection con = null;
 	static String url = "jdbc:mysql://localhost:3306/todo";
 	static String un = "root";
-	static String pwd = "Akash@1654";
+	static String pwd = "root";
 	public static Connection requestConnection() throws ClassNotFoundException, SQLException
 	{
 		Class.forName("com.mysql.cj.jdbc.Driver");
